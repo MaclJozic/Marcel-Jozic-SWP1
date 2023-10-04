@@ -1,0 +1,16 @@
+body {
+    background-color:darkgreen;
+    font-family:'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+button {
+    transition: all 0.3s ease 0s;
+    color:antiquewhite;
+    background-color:cadetblue;
+}
+button:hover {
+    transform: translateY(-7px);
+}
+p#Punkte {
+    color:darkgreen
+}
