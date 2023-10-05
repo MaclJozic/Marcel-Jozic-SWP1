@@ -2,11 +2,13 @@ body {
     background-color:darkgreen;
     font-family:'Courier New', Courier, monospace;
     color: antiquewhite;
+    background-image: url(preview.jpg);
 }
 button {
     transition: all 0.3s ease 0s;
     color:antiquewhite;
     background-color:cadetblue;
+    top:70%;
 }
 button:hover {
     transform: translateY(-7px);
