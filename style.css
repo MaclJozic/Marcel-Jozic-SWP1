@@ -2,12 +2,12 @@ body {
     background-color:darkgreen;
     font-family:'Courier New', Courier, monospace;
     color: antiquewhite;
-    background-image: url(preview.jpg);
+    background-image: url(preeview.jpg);
 }
 button {
     transition: all 0.3s ease 0s;
     color:antiquewhite;
-    background-color:cadetblue;
+    background-color:rgb(230, 161, 93);
     top:70%;
 }
 button:hover {
@@ -16,3 +16,5 @@ button:hover {
 p#Punkte {
     color:darkgreen
 }
+
+
