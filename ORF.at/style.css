@@ -1,0 +1,24 @@
+body {
+    background-color: #5286c1;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.nav_oben {
+    list-style: none;
+    background-color: #4371a3;
+    color: white;
+    margin-left: 130px;
+    width: 875px;
+    height:22px;
+    padding-top: 5px;
+}
+
+li {
+    display: inline;
+    padding: 11px;
+}
+
+a{
+    color: white;
+}
