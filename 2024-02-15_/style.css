@@ -1,0 +1,18 @@
+body {
+    background:linear-gradient(to right, lightblue, lightgreen, lime, green, darkgreen, green, lime, lightgreen, lightblue,lightblue, lightblue, lightgreen, lime, green, darkgreen, green, lime, lightgreen, lightblue, lightblue);
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+.generator {
+    border-style: solid;
+    background-color: lime;
+
+}
+
+button:hover {
+    border-color: rgb(216, 130, 49)s;
+
+}

@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link re="sylesheet" href="style.css">
-    <title>John Doe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person generieren</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="plf.js"></script>
 </head>
 <body>
-    <h1>Bitte anmelden um fortzufahren</h1>
-    <input type="text" placeholder="Name">
-    <input type="text" placeholder="Nachname">
-    <input type="text" placeholder="Geschlecht">
-    <input type="text" placeholder="Alter">
-    <input type="text" placeholder="Gewicht">
-    <input type="text" placeholder="Größe">
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Geschlecht</button>
-        <div id="myDropdown" class="dropdown-content">
-            <a href="#">Männlich</a>
-            <a href="#">Weiblich</a>
-        </div>
-    </div>
+    <h1 style="text-align: center">Erstellen einer Person</h1>
+    <h3>Infos eingeben</h3>
+    <br />Name (Name)
+    <br />
+    <input type="text" ; id="name" />
+    <br />
+    <br />Geschlecht
+    <br />
+    <select name="genderchoose" id="gender">
+        <option value="male">Mann</option>
+        <option value="female">Frau</option>
+        <option value="Einkaufswagen">Einkaufswagen</option>
+    </select>
+    <br />
+    <p>
+    <br />Höhe in Meter (zB: 1.60)
+    <br />
+    <input type="text" ; id="height" />
+    </p>
+    <br />Gewicht in kg
+    <br />
+    <input type="text" ; id="weight" />
+    <br />
+    <p>
+    <button class="generator">generiere deine Person</button>
+    </p>
+    <br />
+    <br />
+    <br />Ausgabe
+    <br />
+    <textarea name="output" id="output" cols="30" rows="3"></textarea>
 </body>
 </html>
