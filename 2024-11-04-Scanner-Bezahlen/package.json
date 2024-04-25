@@ -1,0 +1,12 @@
+{
+  "name": "2024-11-04-scanner-bezahlen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
